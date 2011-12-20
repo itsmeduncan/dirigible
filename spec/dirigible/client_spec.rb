@@ -1,13 +1,18 @@
 require 'spec_helper'
 
 describe Dirigible::Client do
-  describe "initialization" do
-    it "should set the attributes" do
-      client = Dirigible::Client.new('app_key', 'app_secret', 'master_secret')
+  before do
+    @config = {
+      application_key: 'app_key',
+      application_secret: 'app_secret',
+      master_secret: 'master_secret'
+    }
+  end
 
-      client.application_key.should == 'app_key'
-      client.application_secret.should == 'app_secret'
-      client.master_secret.should == 'master_secret'
+  describe "initialize" do
+    it "should initialize the configuration object" do
+      client = Dirigible::Client.new(@config)
+      client.configuration.should be_a(Dirigible::Configuration)
     end
   end
 end

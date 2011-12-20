@@ -3,6 +3,7 @@ $:.unshift(File.dirname(__FILE__))
 require "logger"
 require "dirigible/version"
 require "dirigible/client"
+require "dirigible/configuration"
 
 module Dirigible
 
