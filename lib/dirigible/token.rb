@@ -1,3 +1,0 @@
-class Dirigible::Token
-
-end

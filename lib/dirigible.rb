@@ -1,12 +1,11 @@
-require "dirigible/version"
-require "logger"
-
 $:.unshift(File.dirname(__FILE__))
 
+require "logger"
+require "dirigible/version"
+require "dirigible/client"
+
 module Dirigible
-  autoload :Client, 'dirigible/client'
-  autoload :Token, 'dirigible/token'
- 
+
   class << self
     attr_accessor :logger
   end
