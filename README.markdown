@@ -1,4 +1,4 @@
-# Dirigible [![Build Status](https://secure.travis-ci.org/[YOUR_GITHUB_USERNAME]/[YOUR_PROJECT_NAME].png)](http://travis-ci.org/itsmeduncan/dirigible)
+# Dirigible [![Build Status](https://secure.travis-ci.org/itsmeduncan/dirigible.png)](http://travis-ci.org/itsmeduncan/dirigible)
 
 ## Urban Airship for the proletariat
 
