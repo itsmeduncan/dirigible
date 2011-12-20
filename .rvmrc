@@ -1,1 +1,1 @@
-rvm --create use "ruby-1.9.2-p290@dirigible"
+rvm --create use "ruby-1.9.3-p0@dirigible"
