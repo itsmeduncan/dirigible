@@ -20,6 +20,6 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency 'mocha', '~> 0.10.0'
   s.add_development_dependency 'rake', '~> 0.9.2.2'
-  s.add_development_dependency 'rspec', '~> 2.7.0'
-  s.add_development_dependency 'simplecov', '~> 0.5.4'
+  s.add_development_dependency 'rspec', '~> 2.8.0'
+  s.add_development_dependency 'simplecov', '~> 0.6.1'
 end
